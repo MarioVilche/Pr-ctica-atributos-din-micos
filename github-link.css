@@ -1,0 +1,23 @@
+#link-container {
+    color: rgb(200, 200, 200);
+    background-color: #0D1117;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+
+#link-container a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+
+    &:hover {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+}
